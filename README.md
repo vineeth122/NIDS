@@ -1,2 +1,2 @@
 # NIDS
-Network Intrusion Detection
+The Network Intrusion Detection System is a software written in Python that analyzes network packets which have been captured. It reconstructs the TCP streams and searches for known attack patterns stored in a signature database. The program has been designed to operate within a limited memory space of 256mb, to avoid being overwhelmed by a Denial of Service attack. Additionally, the program verifies the integrity of the packets by performing checks on the IPv4 and TCP checksums.
